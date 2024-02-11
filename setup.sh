@@ -13,7 +13,7 @@ Description=Linky
 WantedBy=default.target
 
 [Service]
-ExecStart=/usr/bin/python2 /home/guillaume/linky/linky.py
+ExecStart=/home/guillaume/linky/.venv/bin/python3 /home/guillaume/linky/tic.py
 WatchdogSec=3600
 Restart=always
 

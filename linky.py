@@ -1,3 +1,5 @@
+#!/usr/bin/env python2
+
 from teleinfo import Parser
 from teleinfo.hw_vendors import UTInfo2
 from time import sleep
